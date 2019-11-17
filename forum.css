@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+.butt1 input {
+    display: none;
+}
+
+body {
+    display: flex;
+}
+
+.fm {
+    flex-direction: row;
+}
+
+.container {
+    padding: 10px;
+    width: 800px;
+    height: 70px;
+    flex: 1;
+    background-color: #228B22;
+    border-bottom: 2px solid rgb(38, 51, 13);
+    position: relative;
+}
+
+.butt1 {
+    content: url(1.png);
+    display: inline-block;
+    width: 14px;
+    height: 18px;
+    border: 0px;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 770px;
+    line-height: 14px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #228B22;
+}
+
+.butt1:checked {
+    content: url(1.png);
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 0px;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 770px;
+    line-height: 14px;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgba(81, 134, 81, 0.616);
+}
+
+img {
+    vertical-align: middle;
+}
+
+.men {
+    width: 800px;
+    height: 600px;
+    overflow: auto;
+    background-color: #056905;
+}
+
+.txt {
+    color: rgb(46, 58, 25);
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.txt1 {
+    text-align: left;
+    margin-left: 15px;
+    font-size: 17px;
+    color: rgba(75, 95, 41, 0.87)
+}
+
+.content {
+    width: 800px;
+    height: 150px;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.cc {
+    width: 60px;
+    height: 60px;
+    background-color: #228B22;
+    border: 2px solid rgb(28, 37, 10);
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 58px;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    color: rgb(25, 39, 25);
+}
+
+.name {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.block {
+    display: inline-block;
+    width: 150px;
+    height: auto;
+    border: 0px;
+}
+
+.date {
+    vertical-align: middle;
+    color: rgb(25, 39, 25);
+    display: inline-block;
+    text-align: left;
+    font-weight: bold;
+}
+
+.autor {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.at {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(25, 39, 25);
+    padding: 5px 5px;
+}
+
+.comment {
+    border: 2px solid rgb(38, 51, 13);
+    height: auto;
+    width: 600px;
+    vertical-align: top;
+    min-height: 80px;
+    background-color: Green;
+    padding: 5px 5px;
+}
