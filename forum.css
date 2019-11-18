@@ -27,13 +27,10 @@ body {
 
 .butt1 {
     content: url(1.png);
-    display: inline-block;
     width: 14px;
     height: 18px;
     border: 0px;
-    box-sizing: border-box;
     position: absolute;
-    z-index: 1;
     top: 10px;
     left: 770px;
     line-height: 14px;
@@ -44,13 +41,10 @@ body {
 
 .butt1:checked {
     content: url(1.png);
-    display: inline-block;
     width: 16px;
     height: 16px;
     border: 0px;
-    box-sizing: border-box;
     position: absolute;
-    z-index: 1;
     top: 10px;
     left: 770px;
     line-height: 14px;
@@ -98,7 +92,6 @@ img {
 .block {
     width: 150px;
     height: auto;
-    border: 0px;
     align-items: center;
     display: flex;
 }
@@ -131,10 +124,6 @@ img {
     display: flex;
 }
 
-.autor {
-    vertical-align: middle;
-}
-
 .at {
     font-size: 16px;
     font-style: italic;
@@ -145,9 +134,7 @@ img {
 
 .comment {
     border: 2px solid rgb(38, 51, 13);
-    height: auto;
     width: 600px;
-    vertical-align: top;
     min-height: 80px;
     background-color: Green;
     padding: 5px 5px;
