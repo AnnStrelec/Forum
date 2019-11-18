@@ -8,17 +8,18 @@
 
 body {
     display: flex;
+    flex-direction: row;
 }
 
 .fm {
-    flex-direction: row;
+    width: 800px;
+    height: 600PX;
 }
 
 .container {
     padding: 10px;
     width: 800px;
     height: 70px;
-    flex: 1;
     background-color: #228B22;
     border-bottom: 2px solid rgb(38, 51, 13);
     position: relative;
@@ -64,9 +65,20 @@ img {
 
 .men {
     width: 800px;
-    height: 600px;
+    height: 530px;
     overflow: auto;
     background-color: #056905;
+}
+
+.line {
+    display: flex;
+    flex-direction: column;
+    width: 10px;
+    height: 530px;
+    border-right: 2px solid rgb(38, 51, 13);
+    position: absolute;
+    left: 150px;
+    z-index: 1;
 }
 
 .txt {
@@ -83,11 +95,18 @@ img {
     color: rgba(75, 95, 41, 0.87)
 }
 
+.block {
+    width: 150px;
+    height: auto;
+    border: 0px;
+    align-items: center;
+    display: flex;
+}
+
 .content {
-    width: 800px;
-    height: 150px;
     padding: 10px;
     vertical-align: middle;
+    display: flex;
 }
 
 .cc {
@@ -96,38 +115,23 @@ img {
     background-color: #228B22;
     border: 2px solid rgb(28, 37, 10);
     border-radius: 50%;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 58px;
-    display: inline-block;
-    margin: 0px;
+    line-height: 56px;
     padding: 0px;
     font-weight: bold;
     color: rgb(25, 39, 25);
-}
-
-.name {
-    vertical-align: middle;
     text-align: center;
-}
-
-.block {
-    display: inline-block;
-    width: 150px;
-    height: auto;
-    border: 0px;
+    margin-right: 5px;
 }
 
 .date {
     vertical-align: middle;
     color: rgb(25, 39, 25);
-    display: inline-block;
     text-align: left;
     font-weight: bold;
+    display: flex;
 }
 
 .autor {
-    display: inline-block;
     vertical-align: middle;
 }
 
